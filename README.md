@@ -1,2 +1,2 @@
 # LiveOrderBook
-A live order book/price-time priority matching engine + frontend to simulate a stock market order book. Only supports handling limit orders for V1.
+A price-time priority matching engine in C++20 with a live order book frontend. Limit orders, cancels, and modifies over a binary TCP protocol, streamed to a React UI through a WebSocket gateway.
